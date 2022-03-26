@@ -3,17 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <title>pmaasz</title>
 	<style>
-		i, a{
-			color: black;
-		}
 		a{
-			text-decoration: none;
+			color: black;
+            text-decoration: none;
 		}
+		i{
+            color: black;
+		}
+        .navbar-brand > i {
+            color: white;
+        }
 		a:hover,a:hover > i{
 			color: grey;
 		}
@@ -24,108 +28,136 @@
 </head>
 <body>
 <header>
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="https://github.com/pmaasz">pmaasz</a>
-    </div>
-  </nav>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="https://github.com/pmaasz">pmaasz</a>
+            <a class="navbar-brand" href="https://www.instagram.com/hello_world_computing/"><i class="fa-brands fa-instagram"></i></a>
+            <a class="navbar-brand" href="https://www.linkedin.com/in/philip-maa%C3%9F-19087b17b/"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </nav>
 </header>
 
- <main>
-<div class="container">
-       <hr class="featurette-divider" style="margin-bottom: 4rem;">
+<main>
+    <div class="container">
+        <hr class="featurette-divider" style="margin-bottom: 4rem;">
 
-	 <div class="row featurette">
-	      <div class="col-md-7">
-        		<h2 class="featurette-heading">Building An InMoov Robot.</h2>
-		        <p class="lead">
-	   			Inmoov is a project started in 2012 by Gael Langevin. I stumbled upon this project in 2014 and thus was pulled into the hobby of 3D printing. I always wanted to own a humanoid robot and wanted something to tinker with. 
-        		</p>
-      		</div>
-      		<div class="col-md-5">
-			<img width="100%" height="100%" src="images/inmoov/inmoov4.jpg"></img>
-     		</div>
-	</div>
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">Building An InMoov Robot.</h2>
+                <p class="lead">
+                    Inmoov is a project started in 2012 by Gael Langevin. I stumbled upon this project in 2014 and thus was pulled into the hobby of 3D printing. I always wanted to own a humanoid robot and wanted something to tinker with.
+                </p>
+                <p>
+                    <a href="http://inmoov.fr/" class="btn btn-primary my-2" rel="noopener noreferrer" target="_blank">InMoov <i class="fa-solid fa-arrow-right"></i></a>
+                </p>
+            </div>
 
-	<hr class="featurette-divider">
-
-        <section class="jumbotron text-center">
-        <div class="container">
-          <h2 class="jumbotron-heading">BehatMailExtension.</h2>
-          <p class="lead text-muted">Insert Text here</p>
-          <p>
-            <a href="https://github.com/pmaasz/BehatMailExtension" class="btn btn-secondary my-2">Github <i class="fa-solid fa-arrow-right"></i></a>
-          </p>
+            <div class="col-md-5">
+                <img width="100%" height="100%" src="images/inmoov/inmoov4.jpg">
+            </div>
         </div>
-      </section>
 
         <hr class="featurette-divider">
 
-<div class="row featurette">
-      <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Pirotino. <span class="text-muted">It's Only A Test.</span></h2>
-        <p class="lead">
-		To get a grip into robotics I started with a four legged robot to learn about positioning with inverse kinematic. Learning about bus-systems like I2C and SPI to connect components like a display and a TOF sensor. Understanding the electronics and how to supply power.
-	</p>
-	<p>
-            <a href="https://github.com/pmaasz/Pirotino" class="btn btn-secondary my-2">Github <i class="fa-solid fa-arrow-right"></i></a>
-          </p>
-      </div>
-      <div class="col-md-5 order-md-1">
-	 <img width="100%" height="100%" src="images/pirotino/pirotino.jpg"></img>
-      </div>
-    </div>
+        <section class="jumbotron text-center">
+            <div class="container">
+                <h2 class="jumbotron-heading">BehatMailExtension.</h2>
+                <p class="lead text-muted">
+                    This extension was written out of my fascination with Behat as an automatic test framework that clicks
+                    through your web application like a normal user. We had done some extensive testing at work using this
+                    technology but testing the e-mails was kind of impossible. On a search for a solution I quickly realized
+                    that no feasible solution existed so I wrote one. This extension enables the developer to test E-Mails
+                    send to an inbox by the application.
+                </p>
+                <p>
+                    <a href="https://github.com/pmaasz/BehatMailExtension" class="btn btn-secondary my-2" rel="noopener noreferrer" target="_blank">Github <i class="fa-solid fa-arrow-right"></i></a>
+                </p>
+            </div>
+        </section>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading">Pirotino. <span class="text-muted">It's Only A Test.</span></h2>
+                <p class="lead">
+                    To get a grip into robotics I started with a four legged robot to learn about positioning with inverse kinematic. Learning about bus-systems like I2C and SPI to connect components like a display and a TOF sensor. Understanding the electronics and how to supply power.
+                </p>
+                <p>
+                    <a href="https://github.com/pmaasz/Pirotino" class="btn btn-secondary my-2" rel="noopener noreferrer" target="_blank">Github <i class="fa-solid fa-arrow-right"></i></a>
+                </p>
+            </div>
+
+            <div class="col-md-5 order-md-1">
+                <img width="100%" height="100%" src="images/pirotino/pirotino.jpg">
+            </div>
+        </div>
 
        <hr class="featurette-divider">
 
         <section class="jumbotron text-center">
-        <div class="container">
-          <h2 class="jumbotron-heading">The Anti Social Network. <span class="text-muted">Speak Your Mind.</span></h2>
-          <p class="lead text-muted">Insert Text here</p>
-          <p>
-            <a href="https://github.com/pmaasz/The-Anti-Social-Network" class="btn btn-secondary my-2">Github <i class="fa-solid fa-arrow-right"></i></a>
-          </p>
-        </div>
-      </section>
+            <div class="container">
+                <h2 class="jumbotron-heading">The Anti Social Network. <span class="text-muted">Speak Your Mind.</span></h2>
+                <p>
+                    The anti social network was a project initially started as hackathon project at my current workplace.
+                    I had the idea of a social media platform with features working not as intended e.g. login form error
+                    would present the username of the entered password. Lately that idea changed to a more real anti social
+                    approach by giving the user only the choice to dislike content. Everybody has to be connected with
+                    everyone and unfriending someone can not be undone creating some awkward situations.
+                </p>
+
+                Tech Stack:
+                <ul>
+                    <li>PHP 7.1</li>
+                    <li>Symfony 4</li>
+                    <li>Bootstrap 4</li>
+                    <li>Twig</li>
+                    <li>jQuery and JavaScript</li>
+                    <li>Fontawesome</li>
+                </ul>
+
+                <p>
+                    <a href="https://github.com/pmaasz/The-Anti-Social-Network" class="btn btn-secondary my-2" rel="noopener noreferrer" target="_blank">Github <i class="fa-solid fa-arrow-right"></i></a>
+                </p>
+            </div>
+        </section>
 
        <hr class="featurette-divider">
 
-         <div class="row featurette">
-              <div class="col-md-7">
-                        <h2 class="featurette-heading">Weatherstation. <span class="text-muted">A Classic.</span></h2>
-                        <p class="lead">
-			The weatherstation was a fun little project to try out my soldering iron and to learn how to use a new sensor. I also had to solve the challenge of a compact design.
-                        </p>
-        <p>
-            <a href="https://github.com/pmaasz/weatherstation" class="btn btn-secondary my-2">Github <i class="fa-solid fa-arrow-right"></i></a>
-          </p>
-                </div>
-                <div class="col-md-5">
-                        <img width="100%" height="100%" src="images/weatherstation/weatherstation.jpg"></img>
-                </div>
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">Weatherstation. <span class="text-muted">A Classic.</span></h2>
+                <p class="lead">
+                    The weatherstation was a fun little project to try out my soldering iron and to learn how to use a new sensor. I also had to solve the challenge of a compact design.
+                </p>
+                <p>
+                    <a href="https://github.com/pmaasz/weatherstation" class="btn btn-secondary my-2" rel="noopener noreferrer" target="_blank">Github <i class="fa-solid fa-arrow-right"></i></a>
+                </p>
+            </div>
+
+            <div class="col-md-5">
+                <img width="100%" height="100%" src="images/weatherstation/weatherstation.jpg">
+            </div>
         </div>
-       
-	<hr class="featurette-divider">
-	
-	<section class="jumbotron text-center">
-        <div class="container">
-          <h2 class="jumbotron-heading">Pi Temperature Sensoring. <span class="text-muted">Shortname PiTS</span></h2>
-          <p class="lead text-muted">Insert Text here</p>
-          <p>
-            <a href="https://github.com/pmaasz/PiTS" class="btn btn-secondary my-2">Github <i class="fa-solid fa-arrow-right"></i></a>
-          </p>
-        </div>
-      </section>
+
+        <hr class="featurette-divider">
+
+        <section class="jumbotron text-center">
+            <div class="container">
+                <h2 class="jumbotron-heading">Pi Temperature Sensoring. <span class="text-muted">Shortname PiTS</span></h2>
+                <p class="lead text-muted">Insert Text here</p>
+                <p>
+                    <a href="https://github.com/pmaasz/PiTS" class="btn btn-secondary my-2" rel="noopener noreferrer" target="_blank">Github <i class="fa-solid fa-arrow-right"></i></a>
+                </p>
+            </div>
+        </section>
 
        <hr class="featurette-divider">
-</div>
+    </div>
+</main>
 
 <footer class="container">
     <p class="float-end"><a href="#">Back to top <i class="fa-solid fa-arrow-up"></i></a></p>
-    <p> 
-	<a href="https://www.instagram.com/hello_world_computing/"><i class="fa-brands fa-instagram"></i></a> <a href="https://www.linkedin.com/in/philip-maa%C3%9F-19087b17b/"><i class="fa-brands fa-linkedin"></i></a>
-    </p>
-  </footer>
-</main>
+</footer>
 </body>
 </html>
